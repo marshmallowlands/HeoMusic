@@ -88,9 +88,11 @@ body {
 #music_bg::before {
   content: '';
   transform: translateZ(0);
-  background: rgba(0, 0, 0, 0.4);
+  background: rgb(20, 20, 20);
+  /* 
   backdrop-filter: blur(60px);
-  -webkit-backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px); 
+  */
   transform: translateZ(0);
   position: fixed;
   z-index: -998;
